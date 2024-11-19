@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arthur Hemmer - Personal Website</title>
+    <title>Blog - Arthur Hemmer</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/custom.css">
 </head>
@@ -11,11 +11,11 @@
     <!-- Navigation -->
     <nav class="max-w-6xl mx-auto px-4 py-8">
         <div class="flex items-center space-x-6 text-lg justify-center">
-            <a href="index.html" class="text-blue-600 font-medium">Home</a>
+            <a href="index.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a>
             <span class="text-gray-300">•</span>
             <a href="publications.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Publications</a>
             <span class="text-gray-300">•</span>
-            <a href="blog.html" class="text-gray-600 hover:text-blue-600 transition duration-300">Blog</a>
+            <a href="blog.html" class="text-blue-600 font-medium">Blog</a>
         </div>
     </nav>
 
@@ -49,40 +49,31 @@
                 </div>
             </div>
 
-            <!-- About Section -->
+            <!-- Blog Posts Section -->
             <div class="md:col-span-3">
                 <div class="bg-white rounded-xl shadow-sm p-8 space-y-8">
-                    <div>
-                        <h1 class="text-4xl font-bold text-gray-800 mb-4">Hi👋</h1>
-                        <p class="text-lg text-gray-800">
-                            Welcome to my personal site! Here, you'll find a brief overview of my background and research interests. Feel free to explore my blog posts to see what's currently on my mind.
-                        </p>
-                    </div>
+                    <h1 class="text-4xl font-bold text-gray-800 mb-8">Blog Posts</h1>
                     
-                    <div>
-                        <h2 class="text-2xl font-bold text-gray-800 mb-3">Research Interests</h2>
-                        <p class="text-lg text-gray-800">
-                            I'm working on my PhD at L3i, La Rochelle Université, in partnership with Shift Technology. My research focuses on using machine learning to analyze administrative documents like invoices, quotes, and medical certificates. I specialize in document information extraction and optical character recognition. By combining neural networks with symbolic reasoning in a Neuro-Symbolic approach, I aim to improve data efficiency, explainability, and performance over traditional methods.
-                        </p>
+                    <!-- Blog Posts -->
+                    <div class="space-y-12">
+                        <article class="space-y-4">
+                            <h2 class="text-2xl font-bold text-gray-800">On the Duality of Intelligence</h2>
+                            <div class="flex items-center space-x-4 text-base text-gray-500">
+                                <span>August 14, 2023</span>
+                                <span class="px-3 py-1 text-sm bg-blue-100 text-blue-700 rounded-full">Neuro-Symbolic AI</span>
+                                <span class="px-3 py-1 text-sm bg-blue-100 text-blue-700 rounded-full">AI</span>
+                            </div>
+                            <p class="text-lg text-gray-600">
+                                "All models are wrong, but some are useful" goes the saying from George Box. I often find this saying best illustrated by the short story from Jorge Luis Borges. In the story, the ruler is eager to get a map of the empire...
+                            </p>
+                            <a href="posts/duality-of-intelligence.html" class="text-lg text-blue-500 hover:text-blue-700 inline-flex items-center">
+                                Read more 
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </article>
                     </div>
-
-                    <div>
-                        <h2 class="text-2xl font-bold text-gray-800 mb-3">Background</h2>
-                        <p class="text-lg text-gray-800">
-                            I earned my Bachelor's degree in Computer Science from Utrecht University in the Netherlands. Afterward, I completed a Master's in Data Science and Business Analytics at CentraleSupélec and ESSEC in Paris, France. I began my career as a data scientist at Shift Technology, working on insurance fraud detection. Three years in, I joined Shift's research team as a Machine Learning Research Engineer, embarking on a PhD collaboration with La Rochelle Université focused on document analysis.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h2 class="text-2xl font-bold text-gray-800 mb-3">Other Interests</h2>
-                        <p class="text-lg text-gray-800">
-                            Before and during my studies, I developed iOS apps in Objective-C and Swift. In 2013, I received an Apple WWDC Scholarship, sparking a deep interest in the Apple ecosystem that continues to this day.
-                        </p>
-                    </div>
-
-                    <p class="text-lg text-gray-800 italic">
-                        Thanks for visiting! Don't hesitate to get in touch if you have any questions about my work or anything else.
-                    </p>
                 </div>
             </div>
         </div>
