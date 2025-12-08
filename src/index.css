@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100;
+  }
+}
+
+/* Custom styles from custom.css */
+.audio-player {
+    width: 200px;
+    margin-top: 0;
+    background-color: white;
+}
+
+/* Flex and anchor styles are generally handled by Tailwind utility classes, 
+   but keeping these for compatibility if specific specific non-tailwind usage exists,
+   though usually we'd migrate these to utility classes in the components. */
+
+/* 
+.flex {
+    align-items: center;
+}
+a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+} 
+*/
+/* Re-enabling basic anchor hover as it seems global in the original site */
+a:hover {
+  text-decoration: underline;
+}

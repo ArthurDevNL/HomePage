@@ -1,0 +1,52 @@
+import React from 'react';
+import SingleColumnLayout from '../../layouts/SingleColumnLayout';
+
+const DualityOfIntelligence: React.FC = () => {
+  return (
+    <SingleColumnLayout>
+        <div className="bg-white rounded-xl shadow-sm p-8 space-y-6">
+            <div className="space-y-4">
+                <div className="text-base text-gray-500">August 14, 2023</div>
+                <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 text-sm bg-blue-100 text-blue-700 rounded-full">Neuro-Symbolic AI</span>
+                    <span className="px-3 py-1 text-sm bg-blue-100 text-blue-700 rounded-full">AI</span>
+                </div>
+                <h1 className="text-4xl font-bold text-gray-800">On the Duality of Intelligence</h1>
+            </div>
+
+            <div className="prose prose-xl max-w-none space-y-8">
+                <p className="text-xl text-gray-800">
+                    "All models are wrong, but some are useful" goes the saying from George Box. I often find this saying best illustrated by the short story from Jorge Luis Borges. In the story, the ruler is eager to get a map of the empire. Upon his servants returning to him with a map, he states that it does not contain enough detail and wants it to be bigger. Upon increasing the level of detail - and therefore also the size of the map - they return to the ruler, who requests again more detail in the map. This continues for a couple of times until the map contains so much details that it becomes the size of the empire itself. "Have you used it much?" asks the emperor. "It has never been spread out, yet," says the servant: "the farmers objected: they said it would cover the whole country, and shut out the sunlight! So we now use the country itself, as its own map, and I assure you it does nearly as well."
+                </p>
+
+                <p className="text-xl text-gray-800">
+                    I think in a similar way about modern-day neural network approaches. The bigger they are the more detail they capture, so people continue to make them bigger and bigger but in the end their size will overcome their utility. What if, instead of pushing these statistical approaches to minimize their errors, requiring exponentially more compute, we assume that, just like humans, they will make errors and find another way to make them more useful?
+                </p>
+
+                <p className="text-xl text-gray-800">
+                    While I don't have the literature to back up the following statement, it seems that we humans make mistakes all the time (sorry for the spoiler). However, I'm not talking about hitting-your-small-toe-on-the-corner-of-the-furniture kind of wrong every now and then. No, I mean out of every single prediction our brain makes maybe in the order of 90% or 99% are wrong. The difference is that we have ways to verify when we are wrong, adjust accordingly, and do so constantly. Since we are so used to making these adjustments, we might just not realize that we're doing it.
+                </p>
+
+                <p className="text-xl text-gray-800">
+                    As such, making predictions is only one part of the equation. From what it looks like, there seems to be some kind of duality in (human) intelligence that is missing in artificial intelligence. With this "duality", I refer to 1) the mechanism that makes the predictions and 2) the mechanism that verifies the predictions by detecting incoherencies and adjusting accordingly. I have named them the proposal and the verification mechanisms respectively. The proposal mechanism can take in large amounts of noisy data and spit out useful representations/symbols. However, it is often wrong and needs to be accompanied by a verification mechanism. The verification mechanism takes the ideas of the proposal mechanism and puts them together in a way that it creates a coherent story. I'm not the only one thinking about it. An emerging field called Neuro-Symbolic AI seems to recognize this exact same duality. Neural network approaches are used as intuitive, fast, idea generating proposal mechanisms after which they are combined with symbolic approaches that verify and possibly slightly correct any predictions.
+                </p>
+
+                <p className="text-xl text-gray-800">
+                    People familiar with Daniel Kahneman's 'Thinking Fast and Slow' might notice the similarities to his System I and System II thinking. In his book, Kahneman describes two different types of thinking that correspond exactly to the duality described above. System I thinking is fast, intuitive and black-box, but also often wrong and easily perturbed by changing circumstances and needs some time to readapt. System II thinking is much slower, but also more robust to noise, more accurate and more explicit. While we probably do not need to recreate all human features to achieve general artificial intelligence, it seems that the two system thinking approach contains interesting directions for AI research.
+                </p>
+
+                <p className="text-xl text-gray-800">
+                    Currently it seems that the proposal mechanism (probabilistic/neural methods) is actively being researched. What isn't researched as much is the verification mechanism and the interaction between the two. While we are good at making simple verification rules ourselves, there are some fundamental verification tools or skills that we might be unaware of. For example, a fascinating concept in human development is "object permanence". When we're born, it takes us up to two years to realize that things around us are permanent, meaning that when they disappear from sight they continue to exist. (This is also the reason why peekaboo works so well with babies; when you hide and show your face it's as if it appeared out of nowhere.) What's more, once we have this figured out, we start showing signs of self-recognition and suddenly our vocabulary grows exponentially. It's a remarkable feature that is learnt only after birth and which is impossible to imagine not having. Object permanence sounds like a very useful concept, and the leaps in intelligence that result from acquiring it suggest it worthy of exploring in the context of AI.
+                </p>
+
+                <p className="text-xl text-gray-800">
+                    To advance in artificial intelligence, it's crucial to focus not just on enhancing neural networks but also on developing robust verification mechanisms. This dual approach, inspired by human cognition, could make AI systems more resilient and adaptable. Just like the ruler in Borges' story realized that a map could never fully capture the empire's complexity, we must acknowledge the limitations of our models. By integrating verification mechanisms, we can create AI systems that are not only powerful but also capable of learning from and correcting their errors. Ultimately, true progress in AI will come from balancing prediction with verification.
+                </p>
+            </div>
+        </div>
+    </SingleColumnLayout>
+  );
+};
+
+export default DualityOfIntelligence;
+
