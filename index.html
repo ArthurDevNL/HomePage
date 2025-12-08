@@ -2,27 +2,136 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Arthur Hemmer - Personal Website</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Arthur Hemmer</title>
+    <meta name="title" content="Arthur Hemmer - Applied Scientist & Neurosymbolic AI Researcher" />
     <meta name="description" content="Arthur Hemmer is an Applied Scientist based in Paris specializing in Neurosymbolic AI and reliable, production-grade systems." />
-    <meta property="og:title" content="Arthur Hemmer - Personal Website" />
-    <meta property="og:description" content="Arthur Hemmer is an Applied Scientist based in Paris specializing in Neurosymbolic AI and reliable, production-grade systems." />
+    <meta name="author" content="Arthur Hemmer" />
+    <meta name="keywords" content="Arthur Hemmer, Applied Scientist, Neurosymbolic AI, Machine Learning, Paris, PhD, AI Research, Document AI, OCR" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    
+    <!-- Theme Color for Mobile Browsers -->
+    <meta name="theme-color" content="#FDFBF7" />
+    <meta name="msapplication-TileColor" content="#FDFBF7" />
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://arthurhemmer.com/" />
+    <meta property="og:title" content="Arthur Hemmer, PhD | Applied Scientist & Neurosymbolic AI Researcher" />
+    <meta property="og:description" content="Applied Scientist in Paris specializing in Neurosymbolic AI. Bridging theoretical research with industrial-scale systems at Shift Technology." />
     <meta property="og:image" content="https://arthurhemmer.com/images/profile.jpg" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Arthur Hemmer" />
+    
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Arthur Hemmer - Personal Website" />
-    <meta name="twitter:description" content="Arthur Hemmer is an Applied Scientist based in Paris specializing in Neurosymbolic AI." />
+    <meta name="twitter:url" content="https://arthurhemmer.com/" />
+    <meta name="twitter:title" content="Arthur Hemmer, PhD | Applied Scientist & Neurosymbolic AI Researcher" />
+    <meta name="twitter:description" content="Applied Scientist in Paris specializing in Neurosymbolic AI. Bridging theoretical research with industrial-scale systems." />
     <meta name="twitter:image" content="https://arthurhemmer.com/images/profile.jpg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://arthurhemmer.com/" />
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Arthur Hemmer",
+      "jobTitle": "Applied Scientist",
+      "description": "Applied Scientist specializing in Neurosymbolic AI and reliable, production-grade systems",
+      "url": "https://arthurhemmer.com",
+      "image": "https://arthurhemmer.com/images/profile.jpg",
+      "sameAs": [
+        "https://linkedin.com/in/arthurhemmer",
+        "https://github.com/ArthurDevNL"
+      ],
+      "alumniOf": {
+        "@type": "Organization",
+        "name": "Shift Technology"
+      },
+      "knowsAbout": ["Neurosymbolic AI", "Machine Learning", "Document AI", "OCR", "Information Extraction"],
+      "knowsLanguage": ["English", "French", "Dutch"]
+    }
+    </script>
+    
+    <!-- Preconnect to External Resources -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://plausible.arthurhemmer.com" />
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- Preload Hero Image -->
+    <link rel="preload" as="image" href="/images/profile.jpg" fetchpriority="high" />
+    
+    <!-- Analytics (deferred) -->
     <script defer data-domain="homepage" src="https://plausible.arthurhemmer.com/js/script.js"></script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- SEO fallback for crawlers that don't execute JavaScript -->
+    <noscript>
+      <div style="max-width: 800px; margin: 0 auto; padding: 2rem; font-family: system-ui, sans-serif;">
+        <header>
+          <h1>Arthur Hemmer, PhD - Applied Scientist & Neurosymbolic AI Researcher</h1>
+          <p>Applied Scientist based in Paris specializing in Neurosymbolic AI and reliable, production-grade systems.</p>
+        </header>
+        
+        <main>
+          <section>
+            <h2>Background</h2>
+            <p>Over seven years of experience bridging theoretical research and industrial application. Currently at Shift Technology, leading technical initiatives to automate high-stakes decision-making in the insurance sector.</p>
+          </section>
+          
+          <section>
+            <h2>Projects</h2>
+            <ul>
+              <li><a href="https://timestamps.video">TimestampAI</a> - Video navigation tool</li>
+              <li><a href="https://github.com/ArthurDevNL/lazyk">lazyk</a> - C++/Python library for constrained decoding</li>
+              <li><a href="https://github.com/ArthurDevNL/transactional-documents">transactional-documents</a> - Neurosymbolic Information Extraction framework</li>
+            </ul>
+          </section>
+          
+          <section>
+            <h2>Publications</h2>
+            <ul>
+              <li><a href="https://link.springer.com/article/10.1007/s10032-025-00530-0">Neurosymbolic Information Extraction from Transactional Documents</a> - IJDAR, 2025</li>
+              <li><a href="https://openaccess.thecvf.com/content/ICCV2025W/VisionDocs/html/Hemmer_Improved_Information_Extraction_by_Leveraging_Multi-Hypothesis_OCR_at_Inference_Time_ICCVW_2025_paper.html">Improved Information Extraction by Leveraging Multi-Hypothesis OCR</a> - ICCVW, 2025</li>
+              <li><a href="https://link.springer.com/chapter/10.1007/978-3-031-70442-0_13">Confidence-Aware Document OCR Error Detection</a> - DAS, 2024</li>
+              <li><a href="https://aclanthology.org/2023.emnlp-main.416/">Lazy-k Decoding: Constrained Decoding for Information Extraction</a> - EMNLP, 2023</li>
+            </ul>
+          </section>
+          
+          <section>
+            <h2>Writing</h2>
+            <ul>
+              <li><a href="/posts/duality-of-intelligence">On the Duality of Intelligence</a> - Reflections on Neuro-Symbolic AI</li>
+            </ul>
+          </section>
+          
+          <footer>
+            <h2>Contact</h2>
+            <p>Native in French, Dutch, and English.</p>
+            <ul>
+              <li><a href="https://linkedin.com/in/arthurhemmer">LinkedIn</a></li>
+              <li><a href="https://github.com/ArthurDevNL">GitHub</a></li>
+            </ul>
+          </footer>
+        </main>
+      </div>
+    </noscript>
   </body>
 </html>
 

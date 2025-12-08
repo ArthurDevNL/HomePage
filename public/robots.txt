@@ -1,0 +1,7 @@
+# robots.txt for arthurhemmer.com
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://arthurhemmer.com/sitemap.xml
+

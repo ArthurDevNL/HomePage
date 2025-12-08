@@ -9,6 +9,48 @@ const DualityOfIntelligence: React.FC = () => {
             <title>On the Duality of Intelligence - Arthur Hemmer</title>
             <meta name="description" content="Reflections on Neuro-Symbolic AI, proposal/verification mechanisms, and the limits of purely statistical models. Discussing System I and System II thinking in AI." />
             <link rel="canonical" href="https://arthurhemmer.com/posts/duality-of-intelligence" />
+            
+            {/* Open Graph */}
+            <meta property="og:type" content="article" />
+            <meta property="og:title" content="On the Duality of Intelligence - Arthur Hemmer" />
+            <meta property="og:description" content="Reflections on Neuro-Symbolic AI, proposal/verification mechanisms, and the limits of purely statistical models." />
+            <meta property="og:url" content="https://arthurhemmer.com/posts/duality-of-intelligence" />
+            <meta property="og:image" content="https://arthurhemmer.com/images/profile.jpg" />
+            <meta property="article:published_time" content="2023-08-14" />
+            <meta property="article:author" content="Arthur Hemmer" />
+            <meta property="article:tag" content="Neuro-Symbolic AI" />
+            <meta property="article:tag" content="AI" />
+            
+            {/* Twitter */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="On the Duality of Intelligence - Arthur Hemmer" />
+            <meta name="twitter:description" content="Reflections on Neuro-Symbolic AI, proposal/verification mechanisms, and the limits of purely statistical models." />
+            <meta name="twitter:image" content="https://arthurhemmer.com/images/profile.jpg" />
+            
+            {/* Article Structured Data */}
+            <script type="application/ld+json">{`
+              {
+                "@context": "https://schema.org",
+                "@type": "BlogPosting",
+                "headline": "On the Duality of Intelligence",
+                "description": "Reflections on Neuro-Symbolic AI, proposal/verification mechanisms, and the limits of purely statistical models.",
+                "author": {
+                  "@type": "Person",
+                  "name": "Arthur Hemmer",
+                  "url": "https://arthurhemmer.com"
+                },
+                "datePublished": "2023-08-14",
+                "image": "https://arthurhemmer.com/images/profile.jpg",
+                "publisher": {
+                  "@type": "Person",
+                  "name": "Arthur Hemmer"
+                },
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://arthurhemmer.com/posts/duality-of-intelligence"
+                }
+              }
+            `}</script>
         </Helmet>
         <main className="max-w-[680px] mx-auto px-6 py-16 md:py-24 space-y-12 leading-relaxed opacity-0 animate-fade-in">
             {/* Header */}

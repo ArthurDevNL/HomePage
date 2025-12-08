@@ -52,8 +52,8 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#FDFBF7] text-gray-800 font-sans selection:bg-indigo-100 selection:text-indigo-900">
       <Helmet>
-        <title>Arthur Hemmer - Applied Scientist & Neurosymbolic AI Researcher</title>
-        <meta name="description" content="Arthur Hemmer is an Applied Scientist in Paris specializing in Neurosymbolic AI, bridging theoretical research with industrial-scale systems." />
+        <title>Arthur Hemmer</title>
+        <meta name="description" content="Arthur Hemmer is an Applied Scientist in Paris specializing in Neurosymbolic AI, bridging theoretical research with industrial-scale systems at Shift Technology." />
         <link rel="canonical" href="https://arthurhemmer.com/" />
       </Helmet>
       
@@ -74,11 +74,19 @@ const Home: React.FC = () => {
               <SocialLinks className="gap-4 text-sm font-medium text-gray-600" />
             </div>
             <div className="shrink-0">
-               <img 
-                 src="/images/profile.jpg" 
-                 alt="Arthur Hemmer" 
-                 className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover shadow-sm border border-gray-200"
-               />
+               <picture>
+                 <source srcSet="/images/profile.webp" type="image/webp" />
+                 <img 
+                   src="/images/profile.jpg" 
+                   alt="Arthur Hemmer - Applied Scientist specializing in Neurosymbolic AI" 
+                   width={128}
+                   height={128}
+                   loading="eager"
+                   fetchPriority="high"
+                   decoding="async"
+                   className="w-24 h-24 md:w-32 md:h-32 rounded-full object-cover shadow-sm border border-gray-200"
+                 />
+               </picture>
             </div>
           </div>
 
