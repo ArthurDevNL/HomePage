@@ -62,7 +62,7 @@ const Home: React.FC = () => {
         {/* Hero Section */}
         <header className="space-y-8">
           <div className="flex flex-col-reverse md:flex-row md:items-start justify-between gap-8">
-            <div className="space-y-6 md:max-w-md">
+            <div className="space-y-6 flex-1">
               <div className="space-y-2">
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">
                   Arthur Hemmer, PhD
