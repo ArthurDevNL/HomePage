@@ -3,36 +3,19 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
-    @apply bg-gray-100;
+    @apply antialiased text-gray-900 bg-white;
   }
 }
 
-/* Custom styles from custom.css */
-.audio-player {
-    width: 200px;
-    margin-top: 0;
-    background-color: white;
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-/* Flex and anchor styles are generally handled by Tailwind utility classes, 
-   but keeping these for compatibility if specific specific non-tailwind usage exists,
-   though usually we'd migrate these to utility classes in the components. */
-
-/* 
-.flex {
-    align-items: center;
-}
-a {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-} 
-*/
-/* Re-enabling basic anchor hover as it seems global in the original site */
-a:hover {
-  text-decoration: underline;
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
 }

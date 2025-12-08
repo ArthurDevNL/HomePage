@@ -5,8 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      },
+      colors: {
+        'accent-orange': '#D97706', // Burnt orange
+        'accent-indigo': '#4338ca', // Deep indigo
+      }
+    },
   },
   plugins: [],
 }
-
