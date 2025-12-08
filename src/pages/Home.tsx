@@ -57,17 +57,17 @@ const Home: React.FC = () => {
         <link rel="canonical" href="https://arthurhemmer.com/" />
       </Helmet>
       
-      <main className="max-w-[680px] mx-auto px-6 py-16 md:py-24 space-y-20 leading-relaxed opacity-0 animate-fade-in">
+      <main className="max-w-[800px] mx-auto px-6 py-16 md:py-24 space-y-20 leading-relaxed opacity-0 animate-fade-in">
         
         {/* Hero Section */}
         <header className="space-y-8">
           <div className="flex flex-col-reverse md:flex-row md:items-start justify-between gap-8">
             <div className="space-y-6 flex-1">
               <div className="space-y-2">
-                <h1 className="text-4xl md:text-5xl font-bold text-gray-900 tracking-tight">
+                <h1 className="text-5xl md:text-6xl font-bold text-gray-900 tracking-tight">
                   Arthur Hemmer, PhD
                 </h1>
-                <h2 className="text-xl md:text-2xl text-gray-500 font-normal">
+                <h2 className="text-2xl md:text-3xl text-gray-500 font-normal">
                   Applied Scientist based in Paris.
                 </h2>
               </div>
@@ -82,17 +82,17 @@ const Home: React.FC = () => {
             </div>
           </div>
 
-          <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+          <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
             I specialize in translating cutting-edge AI research into reliable, production-grade systems that operate at scale.
           </p>
         </header>
 
         {/* Background */}
         <section className="space-y-6">
-          <h3 className="text-2xl font-bold text-gray-900 tracking-tight">
+          <h3 className="text-3xl font-bold text-gray-900 tracking-tight">
             Background
           </h3>
-          <div className="space-y-6 text-gray-700">
+          <div className="space-y-6 text-gray-700 text-lg">
             <p>
               I have over seven years of experience bridging the gap between theoretical research and industrial application. Currently, at <span className="font-medium text-gray-900">Shift Technology</span>, I lead technical initiatives to automate high-stakes decision-making in the insurance sector.
             </p>
@@ -115,10 +115,10 @@ const Home: React.FC = () => {
 
         {/* Public Projects */}
         <section className="space-y-6">
-          <h3 className="text-2xl font-bold text-gray-900 tracking-tight">
+          <h3 className="text-3xl font-bold text-gray-900 tracking-tight">
             Projects
           </h3>
-          <div className="space-y-6 text-gray-700">
+          <div className="space-y-6 text-gray-700 text-lg">
             <p>
               I believe the best way to understand a technology is to build with it. When I am not working on industrial-scale AI, I build tools to solve my own problems or release libraries as part of my research.
             </p>
@@ -157,12 +157,12 @@ const Home: React.FC = () => {
 
         {/* Selected Research */}
         <section className="space-y-6">
-          <h3 className="text-2xl font-bold text-gray-900 tracking-tight">
+          <h3 className="text-3xl font-bold text-gray-900 tracking-tight">
             Selected Publications
           </h3>
           <ul className="space-y-8">
             <li className="group">
-              <a href="https://link.springer.com/article/10.1007/s10032-025-00530-0" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-900 text-lg hover:text-accent-indigo transition-colors block">
+              <a href="https://link.springer.com/article/10.1007/s10032-025-00530-0" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-900 text-xl hover:text-accent-indigo transition-colors block">
                 Neurosymbolic Information Extraction from Transactional Documents
               </a>
               <div className="text-sm text-gray-500 mb-1 font-mono">IJDAR, 2025</div>
@@ -171,7 +171,7 @@ const Home: React.FC = () => {
               </div>
             </li>
             <li className="group">
-              <a href="https://openaccess.thecvf.com/content/ICCV2025W/VisionDocs/html/Hemmer_Improved_Information_Extraction_by_Leveraging_Multi-Hypothesis_OCR_at_Inference_Time_ICCVW_2025_paper.html" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-900 text-lg hover:text-accent-indigo transition-colors block">
+              <a href="https://openaccess.thecvf.com/content/ICCV2025W/VisionDocs/html/Hemmer_Improved_Information_Extraction_by_Leveraging_Multi-Hypothesis_OCR_at_Inference_Time_ICCVW_2025_paper.html" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-900 text-xl hover:text-accent-indigo transition-colors block">
                 Improved Information Extraction by Leveraging Multi-Hypothesis OCR at Inference Time
               </a>
               <div className="text-sm text-gray-500 mb-1 font-mono">ICCVW, 2025</div>
@@ -180,7 +180,7 @@ const Home: React.FC = () => {
               </div>
             </li>
             <li className="group">
-              <a href="https://link.springer.com/chapter/10.1007/978-3-031-70442-0_13" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-900 text-lg hover:text-accent-indigo transition-colors block">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-031-70442-0_13" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-900 text-xl hover:text-accent-indigo transition-colors block">
                 Confidence-Aware Document OCR Error Detection
               </a>
               <div className="text-sm text-gray-500 mb-1 font-mono">DAS, 2024</div>
@@ -189,7 +189,7 @@ const Home: React.FC = () => {
               </div>
             </li>
             <li className="group">
-              <a href="https://aclanthology.org/2023.emnlp-main.416/" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-900 text-lg hover:text-accent-indigo transition-colors block">
+              <a href="https://aclanthology.org/2023.emnlp-main.416/" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-900 text-xl hover:text-accent-indigo transition-colors block">
                 Lazy-k Decoding: Constrained Decoding for Information Extraction
               </a>
               <div className="text-sm text-gray-500 mb-1 font-mono">EMNLP, 2023</div>
@@ -198,7 +198,7 @@ const Home: React.FC = () => {
               </div>
             </li>
             <li className="group">
-              <a href="https://link.springer.com/chapter/10.1007/978-3-031-42430-4_6" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-900 text-lg hover:text-accent-indigo transition-colors block">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-031-42430-4_6" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-900 text-xl hover:text-accent-indigo transition-colors block">
                 Estimating Post-OCR Denoising Complexity on Numerical Texts
               </a>
               <div className="text-sm text-gray-500 mb-1 font-mono">ACIIDS, 2023</div>
@@ -211,12 +211,12 @@ const Home: React.FC = () => {
 
         {/* Writing */}
         <section className="space-y-6">
-          <h3 className="text-2xl font-bold text-gray-900 tracking-tight">
+          <h3 className="text-3xl font-bold text-gray-900 tracking-tight">
             Writing & Thinking
           </h3>
           <ul className="space-y-4">
             <li className="group">
-               <Link to="/posts/duality-of-intelligence" className="font-medium text-gray-900 text-lg hover:text-accent-indigo transition-colors border-b border-gray-200 hover:border-transparent pb-0.5">
+               <Link to="/posts/duality-of-intelligence" className="font-medium text-gray-900 text-xl hover:text-accent-indigo transition-colors border-b border-gray-200 hover:border-transparent pb-0.5">
                 On the Duality of Intelligence
               </Link>
               <p className="text-gray-600 mt-1">
@@ -227,7 +227,7 @@ const Home: React.FC = () => {
         </section>
 
         {/* Footer */}
-        <footer className="pt-12 border-t border-gray-200 text-gray-600 text-sm md:text-base">
+        <footer className="pt-12 border-t border-gray-200 text-gray-600 text-base md:text-lg">
           <p className="mb-6">
             Native in French, Dutch, and English. Always open to discussing the latest AI research, Neurosymbolic AI, software architecture, or the best spots in Paris.
           </p>
