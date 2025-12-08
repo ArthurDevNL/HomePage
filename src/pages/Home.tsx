@@ -158,7 +158,7 @@ const Home: React.FC = () => {
         {/* Selected Research */}
         <section className="space-y-6">
           <h3 className="text-3xl font-bold text-gray-900 tracking-tight">
-            Selected Publications
+            Publications
           </h3>
           <ul className="space-y-8">
             <li className="group">
