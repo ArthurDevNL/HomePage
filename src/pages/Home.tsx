@@ -94,7 +94,7 @@ const Home: React.FC = () => {
             <div>
               <div className="font-bold text-gray-900 mb-2">Neurosymbolic AI at Scale</div>
               <p>
-                I believe that modern AI solutions reach their full potential only when we combine the flexibility of deep learning with the interpretability and control of neurosymbolic approaches. This hybrid strategy is essential for building systems that are robust, reliable, and verifiable in production. My work leverages deep domain knowledge to design architectures that do not just work in isolation but generalize across large-scale deployments, handling the variability of real-world data without compromising quality.
+                I believe that modern AI solutions are at their best when we combine the flexibility of deep learning with the interpretability and control of neurosymbolic approaches. This hybrid strategy is essential for building systems that are robust, reliable, and verifiable in production. My work leverages deep domain knowledge to design architectures that do not just work in isolation but generalize across large-scale deployments and variety of client environments, handling the variability of real-world data without compromising quality.
               </p>
             </div>
 
