@@ -106,7 +106,7 @@ const Home: React.FC = () => {
             </p>
 
             <p>
-              Currently, I am putting this philosophy into practice at <span className="font-medium text-gray-900">Shift Technology</span>. I lead technical initiatives to automate high-stakes decision-making in the insurance sector. I leverage my experience in both engineering and research to understand the limits of new technologies, synthesizing them into products that thrive in production environments where security, reliability, accuracy and scale are non-negotiable.
+              Currently, I am putting this philosophy into practice at <span className="font-medium text-gray-900">Shift Technology</span> where I lead technical initiatives to automate high-stakes decision-making in the insurance sector. I leverage my experience in both engineering and research to understand the limits of new technologies, synthesizing them into products that thrive in production environments where security, reliability, accuracy and scale are non-negotiable.
             </p>
 
             <p>
