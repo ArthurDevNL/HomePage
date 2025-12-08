@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import MainLayout from '../layouts/MainLayout';
 
 const Blog: React.FC = () => {
   return (
     <MainLayout>
+      <Helmet>
+        <title>Blog - Arthur Hemmer</title>
+        <meta name="description" content="Thoughts and essays on Artificial Intelligence, Neurosymbolic AI, and Software Engineering." />
+        <link rel="canonical" href="https://arthurhemmer.com/blog" />
+      </Helmet>
       <div className="bg-white rounded-xl shadow-sm p-8 space-y-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-8">Blog Posts</h1>
           

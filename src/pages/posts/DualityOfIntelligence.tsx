@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const DualityOfIntelligence: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#FDFBF7] text-gray-800 font-sans selection:bg-indigo-100 selection:text-indigo-900">
+        <Helmet>
+            <title>On the Duality of Intelligence - Arthur Hemmer</title>
+            <meta name="description" content="Reflections on Neuro-Symbolic AI, proposal/verification mechanisms, and the limits of purely statistical models. Discussing System I and System II thinking in AI." />
+            <link rel="canonical" href="https://arthurhemmer.com/posts/duality-of-intelligence" />
+        </Helmet>
         <main className="max-w-[680px] mx-auto px-6 py-16 md:py-24 space-y-12 leading-relaxed opacity-0 animate-fade-in">
             {/* Header */}
             <header className="space-y-8">

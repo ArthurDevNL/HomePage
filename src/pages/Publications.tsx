@@ -1,9 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import MainLayout from '../layouts/MainLayout';
 
 const Publications: React.FC = () => {
   return (
     <MainLayout>
+      <Helmet>
+        <title>Publications - Arthur Hemmer</title>
+        <meta name="description" content="Research publications by Arthur Hemmer in Neurosymbolic AI, OCR error detection, and constrained decoding." />
+        <link rel="canonical" href="https://arthurhemmer.com/publications" />
+      </Helmet>
       <div className="bg-white rounded-xl shadow-sm p-8 space-y-8">
           <h1 className="text-4xl font-bold text-gray-800 mb-8">Publications</h1>
           

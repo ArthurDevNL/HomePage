@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 
 const ExternalLink = ({ href, children, color = "indigo", className = "" }: { href: string; children: React.ReactNode, color?: "indigo" | "orange", className?: string }) => {
   const hoverColor = color === "orange" ? "hover:text-accent-orange hover:border-accent-orange" : "hover:text-accent-indigo hover:border-accent-indigo";
@@ -50,6 +51,11 @@ const SocialLinks: React.FC<SocialLinksProps> = ({ className = "" }) => {
 const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#FDFBF7] text-gray-800 font-sans selection:bg-indigo-100 selection:text-indigo-900">
+      <Helmet>
+        <title>Arthur Hemmer - Applied Scientist & Neurosymbolic AI Researcher</title>
+        <meta name="description" content="Arthur Hemmer is an Applied Scientist in Paris specializing in Neurosymbolic AI, bridging theoretical research with industrial-scale systems." />
+        <link rel="canonical" href="https://arthurhemmer.com/" />
+      </Helmet>
       
       <main className="max-w-[680px] mx-auto px-6 py-16 md:py-24 space-y-20 leading-relaxed opacity-0 animate-fade-in">
         
