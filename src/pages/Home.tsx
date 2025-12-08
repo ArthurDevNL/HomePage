@@ -53,11 +53,11 @@ const Home: React.FC = () => {
     <div className="min-h-screen bg-[#FDFBF7] text-gray-800 font-sans selection:bg-indigo-100 selection:text-indigo-900">
       <Helmet>
         <title>Arthur Hemmer, PhD | Applied Scientist & Neurosymbolic AI</title>
-        <meta name="description" content="Arthur Hemmer is an Applied Scientist in Paris specializing in Neurosymbolic AI, bridging theoretical research with industrial-scale systems at Shift Technology." />
+        <meta name="description" content="Arthur Hemmer is an Applied Scientist in Paris, building bridges between humans and machines by translating AI research into reliable, production-grade systems." />
         <link rel="canonical" href="https://arthurhemmer.com/" />
       </Helmet>
       
-      <main className="max-w-[800px] mx-auto px-6 py-16 md:py-24 space-y-20 leading-relaxed opacity-0 animate-fade-in">
+      <main className="max-w-[750px] mx-auto px-6 py-16 md:py-24 space-y-20 leading-relaxed opacity-0 animate-fade-in">
         
         {/* Hero Section */}
         <header className="space-y-8">
@@ -91,33 +91,31 @@ const Home: React.FC = () => {
           </div>
 
           <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
-            I specialize in translating AI research into reliable, production-grade systems that operate at scale.
+            Building bridges between humans and machines, translating AI research into reliable, production-grade systems that operate at scale.
           </p>
         </header>
 
-        {/* Background */}
+        {/* My Story */}
         <section className="space-y-6">
           <h3 className="text-3xl font-bold text-gray-900 tracking-tight">
-            Background
+            My Story
           </h3>
           <div className="space-y-6 text-gray-700 text-lg">
             <p>
-              I have over seven years of experience bridging the gap between theoretical research and industrial application. Currently, at <span className="font-medium text-gray-900">Shift Technology</span>, I lead technical initiatives to automate high-stakes decision-making in the insurance sector.
+              My work is grounded in a single mission: making humans and computers work together seamlessly. While I deeply value the human side of this equation, my background drives me to approach this challenge from the technological side of things.
             </p>
 
-            <div>
-              <div className="font-bold text-gray-900 mb-2">Neurosymbolic AI at Scale</div>
-              <p>
-                I believe that modern AI solutions are at their best when we combine the flexibility of deep learning with the interpretability and control of neurosymbolic approaches. This hybrid strategy is essential for building systems that are robust, reliable, and verifiable in production. My work leverages deep domain knowledge to design architectures that do not just work in isolation but generalize across large-scale deployments and variety of client environments, handling the variability of real-world data without compromising quality.
-              </p>
-            </div>
+            <p>
+              Currently, I am putting this philosophy into practice at <span className="font-medium text-gray-900">Shift Technology</span>. I lead technical initiatives to automate high-stakes decision-making in the insurance sector. I leverage my experience in both engineering and research to understand the limits of new technologies, synthesizing them into products that thrive in production environments where security, reliability, accuracy and scale are non-negotiable.
+            </p>
 
-            <div>
-              <div className="font-bold text-gray-900 mb-2">The Engineering Roots</div>
-              <p>
-                My path to research was built on a foundation of software engineering. Long before my PhD, I was building mobile applications and running my own company. This early experience gave me a strong user-oriented mindset: I learned that the best code is the code that adds value. Because of this background, I am technology agnostic. Whether optimizing low-level backend logic or designing user-facing applications, I approach every challenge with research rigor but the pragmatism of a builder.
-              </p>
-            </div>
+            <p>
+              To expand my toolkit, I pursued a PhD titled "From Document to Decision: Neurosymbolic Approaches for Information Extraction from Transactional Documents." I investigated how probabilistic, neural-based methods, which are powerful but prone to seemingly nonsensical errors, could be combined with symbolic human logic to ensure accuracy. This research was directly applied to the document-heavy decision-making processes at Shift. This experience sharpened my scientific rigor and gave me a deeper ability to assess and position AI research.
+            </p>
+
+            <p>
+              Prior to this, I developed mobile applications for various clients during my BSc and MSc studies. My early focus on crafting exceptional user experiences was recognized when I was selected as an Apple WWDC Scholarship recipient. Overall, mobile application development taught me the importance of the interface, the intersection where humans and machines meet. I spent years defining requirements with customers and translating them into functional, intuitive user experiences which have been used by many people.
+            </p>
           </div>
         </section>
 
@@ -237,7 +235,7 @@ const Home: React.FC = () => {
         {/* Footer */}
         <footer className="pt-12 border-t border-gray-200 text-gray-600 text-base md:text-lg">
           <p className="mb-6">
-            Native in French, Dutch, and English. Always open to discussing the latest AI research, Neurosymbolic AI, software architecture, or the best spots in Paris.
+            Native in French, Dutch, and English. Always open to discussing the latest AI research, programming languages, technologies, or the best food spots in Paris.
           </p>
           <SocialLinks className="flex-wrap gap-4 md:gap-6 font-medium" />
         </footer>
