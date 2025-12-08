@@ -32,7 +32,7 @@ const SocialLinks: React.FC<SocialLinksProps> = ({ className = "" }) => {
         >
              Email
         </button>
-        <ExternalLink href="https://linkedin.com/in/arthurhemmer" color="indigo">LinkedIn</ExternalLink>
+        <ExternalLink href="https://www.linkedin.com/in/arthurhemmer" color="indigo">LinkedIn</ExternalLink>
         <ExternalLink href="https://github.com/ArthurDevNL" color="indigo">GitHub</ExternalLink>
       </div>
       
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#FDFBF7] text-gray-800 font-sans selection:bg-indigo-100 selection:text-indigo-900">
       <Helmet>
-        <title>Arthur Hemmer</title>
+        <title>Arthur Hemmer, PhD | Applied Scientist & Neurosymbolic AI</title>
         <meta name="description" content="Arthur Hemmer is an Applied Scientist in Paris specializing in Neurosymbolic AI, bridging theoretical research with industrial-scale systems at Shift Technology." />
         <link rel="canonical" href="https://arthurhemmer.com/" />
       </Helmet>
@@ -91,7 +91,7 @@ const Home: React.FC = () => {
           </div>
 
           <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
-            I specialize in translating cutting-edge AI research into reliable, production-grade systems that operate at scale.
+            I specialize in translating AI research into reliable, production-grade systems that operate at scale.
           </p>
         </header>
 
