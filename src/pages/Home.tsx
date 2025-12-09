@@ -53,7 +53,7 @@ const Home: React.FC = () => {
     <div className="min-h-screen bg-[#FDFBF7] text-gray-800 font-sans selection:bg-indigo-100 selection:text-indigo-900">
       <Helmet>
         <title>Arthur Hemmer, PhD | Applied Scientist & Neurosymbolic AI</title>
-        <meta name="description" content="Arthur Hemmer is an Applied Scientist in Paris, building bridges between humans and machines by translating AI research into reliable, production-grade systems." />
+        <meta name="description" content="Arthur Hemmer is an Applied Scientist in Paris, focused on building production-grade AI systems." />
         <link rel="canonical" href="https://arthurhemmer.com/" />
       </Helmet>
       
@@ -91,7 +91,7 @@ const Home: React.FC = () => {
           </div>
 
           <p className="text-xl md:text-2xl text-gray-700 leading-relaxed">
-            Building bridges between humans and machines, translating AI research into reliable, production-grade systems that operate at scale.
+            Making humans and machines work together by translating AI research into production-grade systems.
           </p>
         </header>
 
@@ -136,7 +136,7 @@ const Home: React.FC = () => {
                    <span className="text-xs text-gray-400 font-mono">(timestamps.video)</span>
                 </div>
                 <p className="text-gray-600 mt-1">
-                  I built TimestampAI because I needed a better way to navigate video content. It is a tool born out of personal necessity. No over-engineering, just a solution that works.
+                  I built TimestampAI because I needed a better way to navigate video content. It is a tool born out of personal necessity and a desire to explore new technologies freely.
                 </p>
               </li>
 
@@ -154,7 +154,7 @@ const Home: React.FC = () => {
                    <ExternalLink href="https://github.com/ArthurDevNL/transactional-documents" color="indigo" className="text-gray-900 font-medium">transactional-documents</ExternalLink>
                 </div>
                 <p className="text-gray-600 mt-1">
-                  Code and data for "Neurosymbolic Information Extraction". A framework demonstrating how schema-based validation can guide language models to achieve higher accuracy.
+                  Code and data for relabeled information extraction from transactional documents. A framework demonstrating how schema-based validation can guide language models to achieve higher accuracy.
                 </p>
               </li>
             </ul>
@@ -226,7 +226,7 @@ const Home: React.FC = () => {
                 On the Duality of Intelligence
               </Link>
               <p className="text-gray-600 mt-1">
-                Reflections on Neuro-Symbolic AI, proposal/verification mechanisms, and the limits of purely statistical models.
+                Reflections on neurosymbolic AI, proposal/verification mechanisms, and the limits of purely statistical models.
               </p>
             </li>
           </ul>
