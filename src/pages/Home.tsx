@@ -108,14 +108,6 @@ const Home: React.FC = () => {
             <p>
               Currently, I am putting this philosophy into practice at <span className="font-medium text-gray-900">Shift Technology</span> where I lead technical initiatives to automate high-stakes decision-making in the insurance sector. I leverage my experience in both engineering and research to understand the limits of new technologies, synthesizing them into products that thrive in production environments where security, reliability, accuracy and scale are non-negotiable.
             </p>
-
-            <p>
-              To expand my toolkit, I pursued a PhD titled "From Document to Decision: Neurosymbolic Approaches for Information Extraction from Transactional Documents." I investigated how probabilistic, neural-based methods, which are powerful but prone to seemingly nonsensical errors, could be combined with symbolic human logic to ensure accuracy. This research was directly applied to the document-heavy decision-making processes at Shift. This experience sharpened my scientific rigor and gave me a deeper ability to assess and position AI research.
-            </p>
-
-            <p>
-              Prior to this, I developed mobile applications for various clients during my BSc and MSc studies. My early focus on crafting exceptional user experiences was recognized when I was selected as an Apple WWDC Scholarship recipient. Overall, mobile application development taught me the importance of the interface, the intersection where humans and machines meet. I spent years defining requirements with customers and translating them into functional, intuitive user experiences which have been used by many people.
-            </p>
           </div>
         </section>
 
