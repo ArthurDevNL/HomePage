@@ -52,8 +52,8 @@ const Home: React.FC = () => {
   return (
     <div className="min-h-screen bg-[#FDFBF7] text-gray-800 font-sans selection:bg-indigo-100 selection:text-indigo-900">
       <Helmet>
-        <title>Arthur Hemmer, PhD | Applied Scientist & Neurosymbolic AI</title>
-        <meta name="description" content="Arthur Hemmer is an Applied Scientist in Paris, focused on building production-grade AI systems." />
+        <title>Arthur Hemmer, PhD | Machine Learning Engineer</title>
+        <meta name="description" content="Arthur Hemmer is a Machine Learning Engineer in Paris, focused on building production-grade AI systems." />
         <link rel="canonical" href="https://arthurhemmer.com/" />
       </Helmet>
       
@@ -68,7 +68,7 @@ const Home: React.FC = () => {
                   Arthur Hemmer, PhD
                 </h1>
                 <h2 className="text-2xl md:text-3xl text-gray-500 font-normal">
-                  Applied Scientist based in Paris.
+                  Machine Learning Engineer based in Paris.
                 </h2>
               </div>
               <SocialLinks className="gap-4 text-sm font-medium text-gray-600" />
@@ -78,7 +78,7 @@ const Home: React.FC = () => {
                  <source srcSet="/images/profile.webp" type="image/webp" />
                  <img 
                    src="/images/profile.jpg" 
-                   alt="Arthur Hemmer - Applied Scientist specializing in Neurosymbolic AI" 
+                   alt="Arthur Hemmer - Machine Learning Engineer specializing in Neurosymbolic AI" 
                    width={128}
                    height={128}
                    loading="eager"
@@ -102,11 +102,11 @@ const Home: React.FC = () => {
           </h3>
           <div className="space-y-6 text-gray-700 text-lg">
             <p>
-              My work is grounded in a single mission: making humans and computers work together seamlessly. While I deeply value the human side of this equation, my background drives me to approach this challenge from the technological side of things.
+              I'm excited about making humans and computers work together. While I deeply value the human side of this equation, my background drives me to approach this challenge from the technological side of things. I use my experience in both engineering and research to understand the limits of new technologies, synthesizing them into products that thrive in production environments where security, reliability, accuracy and scale are non-negotiable.
             </p>
 
             <p>
-              Currently, I am putting this philosophy into practice at <span className="font-medium text-gray-900">Shift Technology</span> where I lead technical initiatives to automate high-stakes decision-making in the insurance sector. I leverage my experience in both engineering and research to understand the limits of new technologies, synthesizing them into products that thrive in production environments where security, reliability, accuracy and scale are non-negotiable.
+              Currently, I am putting this philosophy into practice at <span className="font-medium text-gray-900">Nabla</span>, where I help build the ambient AI solution that helps clinicians better connect with their patients. Before that, I spent 7 years at <span className="font-medium text-gray-900">Shift Technology</span> where I obtained my PhD and lead technical initiatives to automate high-stakes decision-making for insurance companies. 
             </p>
           </div>
         </section>
